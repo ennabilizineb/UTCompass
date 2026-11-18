@@ -64,7 +64,7 @@
 
 | Sprint | Module | FrontEnd | BackEnd | Database |
 |--------|--------|----------|---------|----------|
-| 1 | Parking Lot Monitoring | - TBD | - TBD | - TBD |
-| 2 | Space Allocation | - TBD | - TBD | - TBD |
-| 3 | Customer Support | - TBD | - TBD | - TBD |
-| 4 | Integration | - TBD | - TBD | - TBD |
+| 1 | Parking Lot Monitoring | parking_dashboard.html, parking_map.html | parking_status.php, occupancy.php | parking_lots.sql, parking_spaces.sql |
+| 2 | Space Allocation | parking_reservation.html, space_selection.html | reservation.php, space_allocation.php | parking_reservations.sql, parking_spaces.sql |
+| 3 | Customer Support |  parking_support.html, report_issue.html  | support_ticket.php, ticket_management.php | support_tickets.sql |
+| 4 | Integration |  parking_overview.html, integrated_parking.html | parking_api.php, parking_integration.php |  parking_system.sql|
