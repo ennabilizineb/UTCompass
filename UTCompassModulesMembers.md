@@ -62,9 +62,6 @@
 
 ## SUBSYSTEM 4 : ABU SALEH MD TAHSIN
 
-
-## SUBSYSTEM 4 : ABU SALEH MD TAHSIN
-
 | **Sprint** | **Module** | **FrontEnd** | **BackEnd** | **Database** |
 | ---------- | ---------- | ------------ | ----------- | ------------ |
 | 1 | Parking Lot Monitoring | • [Parking Dashboard](frontend/parking_dashboard.html)<br>• [Parking Map](frontend/parking_map.html) | • [Parking Status Controller](backend/api/parking_status.php)<br>• [Occupancy Controller](backend/api/occupancy.php) | • [Parking Lots Table](database/parking_lots.sql)<br>• [Parking Spaces Table](database/parking_spaces.sql) |
