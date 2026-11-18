@@ -31,10 +31,10 @@
 
 | Sprint | Module | FrontEnd | BackEnd | Database |
 |--------|--------|----------|---------|----------|
-| 1 | Route-level Detail Management | - TBD | - TBD | - TBD |
-| 2 | Vehicle and Driver Route Assignment | - TBD | - TBD | - TBD |
-| 3 | Shuttle Bus Timetable Management | - TBD | - TBD | - TBD |
-| 4 | Integration | - TBD | - TBD | - TBD |
+| 1 | Route-level Detail Management | <ul><li>[Route Management Page](frontend/route_management.html)</li><li>[Bus Stop List Page](frontend/bus_stops.html)</li><li>[Route Details Page](frontend/route_details.html)</li></ul> | <ul><li>[Route CRUD API](backend/api/routes.php)</li><li>[Bus Stop Management API](backend/api/bus_stops.php)</li></ul> | <ul><li>[Routes Table](database/routes.sql)</li><li>[Bus Stops Table](database/bus_stops.sql)</li><li>[Route Stops Table](database/route_stops.sql)</li></ul> |
+| 2 | Vehicle and Driver Route Assignment | <ul><li>[Vehicle Assignment Page](frontend/vehicle_assignment.html)</li><li>[Driver Assignment Page](frontend/driver_assignment.html)</li><li>[Assignment Overview Page](frontend/assignment_overview.html)</li></ul> | <ul><li>[Vehicle Assignment API](backend/api/vehicle_assignment.php)</li><li>[Driver Assignment API](backend/api/driver_assignment.php)</li><li>[Assignment Validation](backend/helpers/assignment_validation.php)</li></ul> | <ul><li>[Vehicles Table](database/vehicles.sql)</li><li>[Drivers Table](database/drivers.sql)</li><li>[Route Assignments Table](database/route_assignments.sql)</li></ul> |
+| 3 | Shuttle Bus Timetable Management | <ul><li>[Shuttle Timetable Page](frontend/shuttle_timetable.html)</li><li>[Timetable Management Page](frontend/timetable_management.html)</li><li>[Schedule Search & Filter](frontend/schedule_filter.js)</li></ul> | <ul><li>[Timetable CRUD API](backend/api/timetables.php)</li><li>[Schedule Retrieval API](backend/api/schedules.php)</li><li>[Timetable Conflict Validation](backend/helpers/timetable_validation.php)</li></ul> | <ul><li>[Timetables Table](database/timetables.sql)</li><li>[Routes Table](database/routes.sql)</li><li>[Route Stops Table](database/route_stops.sql)</li></ul> |
+| 4 | Integration | <ul><li>[Integrated Route & Schedule View](frontend/route_schedule.html)</li><li>[UI Testing & Refinement](frontend/)</li></ul> | <ul><li>[API Integration](backend/api/)</li><li>[Integration Testing & Bug Fixing](tests/)</li></ul> | <ul><li>[Database Integration](database/)</li><li>[Data Consistency Validation](tests/)</li></ul> |
 
 ---
 
@@ -53,10 +53,10 @@
 
 | Sprint | Module | FrontEnd | BackEnd | Database |
 |--------|--------|----------|---------|----------|
-| 1 | Passenger Check-in & Pass Verification | - TBD | - TBD | - TBD |
-| 2 | Service Disruption & Delay Alerts | - TBD | - TBD | - TBD |
-| 3 | Passenger Demand & Usage Analytics | - TBD | - TBD | - TBD |
-| 4 | Integration | - TBD | - TBD | - TBD |
+| 1 | Passenger Check-in & Pass Verification | <ul><li>[Passenger Check-in Page](frontend/passenger_checkin.html)</li><li>[Check-in History Page (Admin)](frontend/checkin_history.html)</li></ul> | <ul><li>[Check-in Controller](backend/api/checkin.php)</li><li>[Pass Verification Controller](backend/api/verify_pass.php)</li><li>[Pass Verification Helper](backend/helpers/pass_verification.php)</li></ul> | <ul><li>[Passengers Table](database/passengers.sql)</li><li>[Passes Table](database/passes.sql)</li><li>[Check-ins Table](database/checkins.sql)</li></ul> |
+| 2 | Service Disruption & Delay Alerts | <ul><li>[Service Alerts Page](frontend/alerts.html)</li><li>[Manage Alerts Page (Admin)](frontend/admin_disruptions.html)</li></ul> | <ul><li>[Disruptions Controller](backend/api/disruptions.php)</li><li>[Disruption Rules Helper](backend/helpers/disruption_rules.php)</li></ul> | <ul><li>[Disruptions Table](database/disruptions.sql)</li><li>[Check-in Shuttles Table](database/checkin_shuttles.sql)</li></ul> |
+| 3 | Passenger Demand & Usage Analytics | <ul><li>[Usage Dashboard Page (Admin)](frontend/usage_dashboard.html)</li></ul> | <ul><li>[Usage Analytics Controller](backend/api/usage_analytics.php)</li><li>[Usage Analytics Helper](backend/helpers/usage_analytics.php)</li></ul> | <ul><li>[Check-ins Table](database/checkins.sql)</li><li>[Usage Demo Data](database/usage_seed.sql)</li></ul> |
+| 4 | Integration | <ul><li>[Passenger Dashboard Page](frontend/passenger_dashboard.html)</li><li>[Shared Front-end Helpers](frontend/js/common.js)</li></ul> | <ul><li>[Passenger Summary Controller](backend/api/passenger_summary.php)</li><li>[Admin Guard Helper](backend/helpers/auth_guard.php)</li><li>[Postman Test Collection](tests/subsystem3_postman_collection.json)</li></ul> | <ul><li>[Subsystem 3 Integration Views](database/subsystem3_integration.sql)</li></ul> |
 
 ---
 
