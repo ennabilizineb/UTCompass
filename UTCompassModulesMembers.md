@@ -53,10 +53,10 @@
 
 | Sprint | Module | FrontEnd | BackEnd | Database |
 |--------|--------|----------|---------|----------|
-| 1 | Passenger Check-in & Pass Verification | - TBD | - TBD | - TBD |
-| 2 | Service Disruption & Delay Alerts | - TBD | - TBD | - TBD |
-| 3 | Passenger Demand & Usage Analytics | - TBD | - TBD | - TBD |
-| 4 | Integration | - TBD | - TBD | - TBD |
+| 1 | Passenger Check-in & Pass Verification | <ul><li>[Passenger Check-in Page](frontend/passenger_checkin.html)</li><li>[Check-in History Page (Admin)](frontend/checkin_history.html)</li></ul> | <ul><li>[Check-in Controller](backend/api/checkin.php)</li><li>[Pass Verification Controller](backend/api/verify_pass.php)</li><li>[Pass Verification Helper](backend/helpers/pass_verification.php)</li></ul> | <ul><li>[Passengers Table](database/passengers.sql)</li><li>[Passes Table](database/passes.sql)</li><li>[Check-ins Table](database/checkins.sql)</li></ul> |
+| 2 | Service Disruption & Delay Alerts | <ul><li>[Service Alerts Page](frontend/alerts.html)</li><li>[Manage Alerts Page (Admin)](frontend/admin_disruptions.html)</li></ul> | <ul><li>[Disruptions Controller](backend/api/disruptions.php)</li><li>[Disruption Rules Helper](backend/helpers/disruption_rules.php)</li></ul> | <ul><li>[Disruptions Table](database/disruptions.sql)</li><li>[Check-in Shuttles Table](database/checkin_shuttles.sql)</li></ul> |
+| 3 | Passenger Demand & Usage Analytics | <ul><li>[Usage Dashboard Page (Admin)](frontend/usage_dashboard.html)</li></ul> | <ul><li>[Usage Analytics Controller](backend/api/usage_analytics.php)</li><li>[Usage Analytics Helper](backend/helpers/usage_analytics.php)</li></ul> | <ul><li>[Check-ins Table](database/checkins.sql)</li><li>[Usage Demo Data](database/usage_seed.sql)</li></ul> |
+| 4 | Integration | <ul><li>[Passenger Dashboard Page](frontend/passenger_dashboard.html)</li><li>[Shared Front-end Helpers](frontend/js/common.js)</li></ul> | <ul><li>[Passenger Summary Controller](backend/api/passenger_summary.php)</li><li>[Admin Guard Helper](backend/helpers/auth_guard.php)</li><li>[Postman Test Collection](tests/subsystem3_postman_collection.json)</li></ul> | <ul><li>[Subsystem 3 Integration Views](database/subsystem3_integration.sql)</li></ul> |
 
 ---
 
