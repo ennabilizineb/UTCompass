@@ -62,9 +62,9 @@
 
 ## SUBSYSTEM 4 : ABU SALEH MD TAHSIN
 
-| Sprint | Module | FrontEnd | BackEnd | Database |
-|--------|--------|----------|---------|----------|
-| 1 | Parking Lot Monitoring | - TBD | - TBD | - TBD |
-| 2 | Space Allocation | - TBD | - TBD | - TBD |
-| 3 | Customer Support | - TBD | - TBD | - TBD |
-| 4 | Integration | - TBD | - TBD | - TBD |
+| **Sprint** | **Module** | **FrontEnd** | **BackEnd** | **Database** |
+| ---------- | ---------- | ------------ | ----------- | ------------ |
+| 1 | Parking Lot Monitoring | • [Parking Dashboard](frontend/parking_dashboard.html)<br>• [Parking Map](frontend/parking_map.html) | • [Parking Status Controller](backend/api/parking_status.php)<br>• [Occupancy Controller](backend/api/occupancy.php) | • [Parking Lots Table](database/parking_lots.sql)<br>• [Parking Spaces Table](database/parking_spaces.sql) |
+| 2 | Space Allocation | • [Parking Reservation Page](frontend/parking_reservation.html)<br>• [Space Selection Page](frontend/space_selection.html) | • [Reservation Controller](backend/api/reservation.php)<br>• [Space Allocation Controller](backend/api/space_allocation.php) | • [Parking Reservations Table](database/parking_reservations.sql)<br>• [Parking Spaces Table](database/parking_spaces.sql) |
+| 3 | Customer Support | • [Parking Support Page](frontend/parking_support.html)<br>• [Report Issue Page](frontend/report_issue.html) | • [Support Ticket Controller](backend/api/support_ticket.php)<br>• [Ticket Management Controller](backend/api/ticket_management.php) | • [Support Tickets Table](database/support_tickets.sql) |
+| 4 | Integration | • [Parking Overview Page](frontend/parking_overview.html)<br>• [Integrated Parking Page](frontend/integrated_parking.html) | • [Parking API](backend/api/parking_api.php)<br>• [Parking Integration](backend/api/parking_integration.php) | • [Parking System Database](database/parking_system.sql) |
