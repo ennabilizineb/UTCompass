@@ -62,9 +62,14 @@
 
 ## SUBSYSTEM 4 : ABU SALEH MD TAHSIN
 
-| Sprint | Module | FrontEnd | BackEnd | Database |
-|--------|--------|----------|---------|----------|
-| 1 | Parking Lot Monitoring | parking_dashboard.html, parking_map.html | parking_status.php, occupancy.php | parking_lots.sql, parking_spaces.sql |
-| 2 | Space Allocation | parking_reservation.html, space_selection.html | reservation.php, space_allocation.php | parking_reservations.sql, parking_spaces.sql |
-| 3 | Customer Support |  parking_support.html, report_issue.html  | support_ticket.php, ticket_management.php | support_tickets.sql |
-| 4 | Integration |  parking_overview.html, integrated_parking.html | parking_api.php, parking_integration.php |  parking_system.sql|
+
+## SUBSYSTEM 4 : ABU SALEH MD TAHSIN
+
+| **Sprint** | **Module** | **FrontEnd** | **BackEnd** | **Database** |
+| ---------- | ---------- | ------------ | ----------- | ------------ |
+| 1 | Parking Lot Monitoring | • [Parking Dashboard](frontend/parking_dashboard.html)<br>• [Parking Map](frontend/parking_map.html) | • [Parking Status Controller](backend/api/parking_status.php)<br>• [Occupancy Controller](backend/api/occupancy.php) | • [Parking Lots Table](database/parking_lots.sql)<br>• [Parking Spaces Table](database/parking_spaces.sql) |
+| 2 | Space Allocation | • [Parking Reservation Page](frontend/parking_reservation.html)<br>• [Space Selection Page](frontend/space_selection.html) | • [Reservation Controller](backend/api/reservation.php)<br>• [Space Allocation Controller](backend/api/space_allocation.php) | • [Parking Reservations Table](database/parking_reservations.sql)<br>• [Parking Spaces Table](database/parking_spaces.sql) |
+| 3 | Customer Support | • [Parking Support Page](frontend/parking_support.html)<br>• [Report Issue Page](frontend/report_issue.html) | • [Support Ticket Controller](backend/api/support_ticket.php)<br>• [Ticket Management Controller](backend/api/ticket_management.php) | • [Support Tickets Table](database/support_tickets.sql) |
+| 4 | Integration | • [Parking Overview Page](frontend/parking_overview.html)<br>• [Integrated Parking Page](frontend/integrated_parking.html) | • [Parking API](backend/api/parking_api.php)<br>• [Parking Integration](backend/api/parking_integration.php) | • [Parking System Database](database/parking_system.sql) |
+
+
